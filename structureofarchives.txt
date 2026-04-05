@@ -1,0 +1,31 @@
+ax-studios/
+├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts          # Endpoint POST para formulario de contacto
+│   ├── docs/
+│   │   └── [slug]/
+│   │       └── page.tsx          # Ruta dinámica para /docs/tos y /docs/privacy
+│   ├── favicon.ico
+│   ├── globals.css               # Estilos globales y variables Tailwind
+│   ├── layout.tsx                # Layout raíz (Navbar, Footer, fuentes)
+│   ├── loading.tsx               # Estado de carga global
+│   ├── not-found.tsx             # Página 404 personalizada
+│   └── page.tsx                  # Página principal (landing)
+├── components/
+│   ├── About.tsx                 # Sección Sobre el equipo
+│   ├── Community.tsx             # Sección Comunidad (Discord)
+│   ├── Contact.tsx               # Sección Contacto (formulario)
+│   ├── Footer.tsx                # Footer profesional con enlaces
+│   ├── Hero.tsx                  # Sección principal (landing)
+│   ├── Navbar.tsx                # Barra de navegación sticky con blur
+│   ├── Projects.tsx              # Portafolio de proyectos
+│   └── Services.tsx              # Servicios ofrecidos
+├── public/
+│   └── og-image.png              # Imagen para Open Graph (opcional)
+├── .gitignore
+├── next.config.mjs               # Configuración de Next.js (imágenes, etc.)
+├── package.json                  # Dependencias y scripts
+├── postcss.config.js             # Configuración de PostCSS (Tailwind)
+├── tailwind.config.ts            # Configuración de Tailwind (colores, animaciones)
+└── tsconfig.json                 # Configuración de TypeScript

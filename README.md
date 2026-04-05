@@ -87,8 +87,7 @@ ax-studios/
 ---
 
 ## 🌐 Despliegue
-
-Recomendado: Vercel
+[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://netlify.com)
 ![Vercel](https://vercel.com/button)
 
 > [!IMPORTANT]  
